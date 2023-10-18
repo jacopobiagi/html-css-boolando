@@ -45,4 +45,101 @@ header > div{
 
 .smallNav > i{
     margin: 5px;
+    cursor: pointer;
+}
+
+/* css main */
+
+.expo{
+    display: flex;
+    width: 100%;
+    padding: 2% 9%;
+}
+
+.expo div{
+    position: relative;
+    width: 33%;
+}
+
+.expo img{
+    position: relative;
+    width: 100%;
+    max-height: 650px;
+    padding: 9px 9px 0 9px;
+}
+
+.icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-right: 9px;
+    top: 4%;
+    z-index: 1; /* Ordine di sovrapposizione sopra l'immagine */
+}
+
+.icon:hover{
+    color: red;
+}
+
+.sconto{
+    width: 40px!important;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    position: absolute!important;
+    z-index: 1;
+    bottom: 90px;
+    margin: 9px;
+}
+
+.sostenibile{
+    font-size: x-small;
+    width: 70px!important;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    position: absolute!important;
+    z-index: 1;
+    bottom: 90px;
+    margin: 9px 9px 9px 54px;
+}
+
+.description{
+    margin-left: 9px;
+}
+
+.brand, .price{
+    font-size: x-small;
+}
+
+.newPrice{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+   
+}
+
+.none{
+    display: none;
+}
+
+.hoverable-image:hover .notNone {
+    display: none;
+}
+
+.hoverable-image:hover .none {
+    display: inline-block;
 }
