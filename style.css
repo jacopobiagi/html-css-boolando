@@ -120,6 +120,11 @@ main{
     margin: 9px 9px 9px 54px;
 }
 
+#sostenibile{
+    bottom: unset;
+    margin: unset;
+}
+
 .description{
     margin-left: 9px;
 }
@@ -135,7 +140,7 @@ main{
 
 .oldPrice{
     text-decoration: line-through;
-   
+    color: black;
 }
 
 .none{
